@@ -1,0 +1,1037 @@
+/* media query for desktop *//* media query for desktop *//* media query for desktop *//* media query for desktop */
+
+    /*roll tide steelers webpage */
+
+nav ul {
+
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+
+}
+
+nav {
+  background-color: yellow;
+  height: 80px;
+  width: 100%;
+}
+
+label.logo {
+
+  color:red;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+
+nav ul li a {
+
+  color: black;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+
+a.active,a:hover {
+  background: orange;
+  transition: .5s;
+}
+
+.checkbtn {
+
+  font-size: 50px;
+  color: purple;
+  float: right;
+
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+
+  display: none;
+}
+
+@media (max-width: 952px)  {
+
+
+  label.logo {
+
+    font-size: 30px;
+    padding-left: 50px;
+  }
+
+
+  nav ul li a {
+
+    font-size: 16px;
+  }
+
+}
+
+
+@media (max-width: 858px)  {
+
+
+
+.checkbtn {
+
+  display: block;
+}
+
+ul {
+
+  position: fixed;
+  width: 100%;
+  height: 455px;
+  background: aqua;
+  top: 80px;
+  left: -100%;
+  text-align: center;
+  transition: all .5s;
+}
+
+nav ul li {
+
+  display: block;
+  margin:50px 0;
+  line-height: 30px;
+
+}
+
+}
+
+nav ul li a {
+
+  font-size: 20px;
+
+
+}
+
+
+a:hover, a.active {
+
+  background: none;
+  color: pink;
+}
+
+
+#check:checked ~ ul {
+
+  left: 0;
+}
+
+ 
+
+.rolltidelogo {
+
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+    .buttonbabyNAV {
+
+      padding-left: 30px; 
+      padding-right: 30px;
+      font-size: 65px; 
+      background-color: red; 
+      color: white; 
+      border-radius: 35px; 
+      font-family: Arial, Helvetica, sans-serif;
+    
+      margin-right: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    
+    }
+    
+    .buttonbabyNAV:hover {
+    
+      color: yellow;
+    }
+    
+
+    .btn {
+
+      background: #F63D3D;
+      background-image: -webkit-linear-gradient(top, #F63D3D, #811616);
+      background-image: -moz-linear-gradient(top, #F63D3D, #811616);
+      background-image: -ms-linear-gradient(top, #F63D3D, #811616);
+      background-image: -o-linear-gradient(top, #F63D3D, #811616);
+      background-image: -webkit-gradient(to bottom, #F63D3D, #811616);
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      border-radius: 20px;
+      height: 13px;
+      line-height: 10px;
+      color: #FFFFFF;
+      font-family: Arial;
+      width: 649px;
+      font-size: 40px;
+      font-weight: 900;
+      padding: 38px;
+      -webkit-box-shadow: 1px 1px 6px 0 #000000;
+      -moz-box-shadow: 1px 1px 6px 0 #000000;
+      box-shadow: 1px 1px 6px 0 #000000;
+      text-shadow: 1px 1px 6px #000000;
+      border: solid #762C2C 1px;
+      text-decoration: none;
+      display: inline-block;
+      cursor: pointer;
+      text-align: center;
+      margin-bottom: 90px;
+    
+    }
+    
+    .btn:hover {
+      border: solid #ED3333 1px;
+      background: #811616;
+      background-image: -webkit-linear-gradient(top, #811616, #F63D3D);
+      background-image: -moz-linear-gradient(top, #811616, #F63D3D);
+      background-image: -ms-linear-gradient(top, #811616, #F63D3D);
+      background-image: -o-linear-gradient(top, #811616, #F63D3D);
+      background-image: -webkit-gradient(to bottom, #811616, #F63D3D);
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+      border-radius: 50px;
+      text-decoration: none;
+      color: yellow;
+    }
+
+    .buttonblock {
+
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+  
+  
+
+
+@media screen and (min-width:1024px) {
+
+    /*index page only */
+
+    /*nav bar section only start */
+
+    .navbar {
+      padding-bottom: 1.5rem;
+      
+      }
+      
+      .nav-item {
+      padding: 0 10px;
+      
+      
+      }
+      
+      .nav-link{
+      font-size: 35px;
+      
+      }
+      
+      .navbar-brand {
+      font-family: "Ubuntu";
+      font-size: 2.5rem;
+      font-weight: bold;
+      padding-left: 50px;
+      
+      }
+
+          /*nav bar section only end */
+
+      hr { 
+
+        border: solid black 6px;
+        border-bottom: none;
+        width: 100%;
+        margin: 100px auto;
+    
+      }
+
+
+
+.welcome{
+
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 55px;
+  color: white;
+  padding-top: 45px;
+  padding-bottom: 55px;
+
+}
+
+#features{
+
+  padding:7% 15%;
+  background-color: black;
+  position: relative;
+
+}
+
+.HeaderTrueLove{
+
+  text-align: center;
+}
+
+
+  #testimonials {
+
+    font-size: 52px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+
+
+  }
+
+  #testimonialsMF {
+
+    font-size: 52px;
+    width: 100%;
+    text-align: center;
+    background-color: #FFC20E;
+
+
+  }
+
+.player-title {
+
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 50px;
+
+
+
+}
+
+  .stadium {
+
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: none;
+  }
+
+  .desktopstadium{
+
+    height: 70%;
+    width: 70%;
+    position: relative;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+
+  .meetplayers{
+
+    padding-top: 25px;
+    padding-bottom: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 80px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+  .meetplayersdesk{
+
+    padding-top: 155px;
+    padding-bottom: 155px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 90px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+  }
+
+  .pro {
+
+    text-decoration: underline;
+    color: red;
+  }
+
+      /*desktop version for picture and allforone steelers logo only */
+
+      .playertextwords {
+
+        margin-top: auto;
+        margin-bottom: auto;
+    
+      }
+
+
+  .allforone {
+
+    height: 70%;
+    width: 70%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    padding-bottom: 50px;
+    display: none;
+
+
+
+  }
+
+
+  
+
+  
+
+
+  /*footer section */
+
+
+  .footer3 {
+
+    padding: 50px;
+    text-align: center;
+    font-size: 38px;
+    background-color: #FFC20E;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+
+}
+
+  /*players pages */
+
+  
+  .player-image{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    height:50%;
+    width:50%;
+    float:left;
+  
+
+  }
+
+
+    /*desktop view below for player-face */
+
+
+  .player-face{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    height:40%;
+    width:40%;
+  
+
+  }
+
+  .player-faceDESK{
+
+    float: left;
+display: block;
+padding-left: 30px;
+padding-right: 20px;
+padding-top: 20px;
+
+
+  
+
+  }
+
+
+  .player-textDESK {
+
+    padding-top: 40px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-justify: left;
+  
+
+  }
+
+
+
+  .playersTitlename{
+
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 75px;
+    line-height: 1.5;
+    font-weight: 900;
+    padding-left: 50px;
+  
+
+
+  }
+
+  .player-textBlock {
+
+    padding-top: 210px;
+  }
+
+
+
+  .player-text {
+
+    font-family:Arial, Helvetica, sans-serif;
+    color: #FFB612;
+    font-size: 65px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 70px;
+
+    padding-bottom: 90px;
+  }
+
+  .player-textMF {
+
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 65px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 70px;
+
+    padding-bottom: 90px;
+  }
+
+  .namelocation{
+
+    font-size: 52px;
+    line-height: 1.5;
+    width:100%;
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+  }
+
+
+
+/* media query for tablet */
+
+@media screen and (min-width:769px) and (max-width: 1023px) {
+
+  .playertextwords {
+
+    margin-top: auto;
+    margin-bottom: auto;
+
+  }
+
+      /*nav bar section only start */
+
+    .navbar {
+      padding-bottom: 1.5rem;
+      
+      }
+      
+      .nav-item {
+      padding: 0 10px;
+      
+      
+      }
+      
+      .nav-link{
+      font-size: 35px;
+      
+      }
+      
+      .navbar-brand {
+      font-family: "Ubuntu";
+      font-size: 2.5rem;
+      font-weight: bold;
+      padding-left: 50px;
+      
+      }
+
+
+
+          /*nav bar section only end */
+
+          .desktopstadium{
+
+            height: 70%;
+            width: 70%;
+            position: relative;
+            background-size: 70%;
+            background-repeat: no-repeat;
+            padding-top: 60px;
+            padding-bottom: 60px;
+            display: none;
+          }
+
+          .stadium {
+
+            height: 100%;
+            width: 100%;
+            position: relative;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            
+          }
+
+  .player-image{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height:100%;
+    width:100%;
+    border: 6px solid white;
+    background-color: white;
+
+
+  
+
+  }
+
+  /*tablet view below for player-face */
+
+
+  .player-face{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    height:60%;
+    width:60%;
+  
+
+  }
+
+  #testimonials {
+
+    font-size: 52px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+
+
+  }
+
+  #testimonialsMF {
+
+    font-size: 52px;
+    width: 100%;
+    text-align: center;
+    background-color: #FFC20E;
+
+
+  }
+
+  .meetplayers{
+
+    padding-top: 25px;
+    padding-bottom: 35px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+    font-size: 80px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.meetplayersdesk{
+
+  padding-top: 155px;
+  padding-bottom: 155px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 90px;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+  display: none;
+
+  padding-left: 20px;
+  padding-right: 20px;
+
+
+}
+
+.welcome{
+
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 55px;
+  color: white;
+  padding-top: 45px;
+  padding-bottom: 55px;
+
+
+
+}
+
+#features{
+
+  padding:7% 15%;
+  background-color: black;
+  position: relative;
+
+}
+
+}
+
+      /*tablet version for picture and allforone steelers logo only */
+
+
+      .picture {
+
+        height: 100%;
+        width: 100%;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: 100%;
+      }
+    
+      .allforone {
+    
+        height: 70%;
+        width: 70%;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: 70%;
+        display: none;
+    
+    
+    
+      }
+
+.player-title {
+
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 50px;
+
+
+
+}
+
+hr { 
+
+  border: solid black 6px;
+  border-bottom: none;
+  width: 100%;
+  margin: 100px auto;
+
+}
+
+.footer3 {
+
+  padding: 50px;
+  text-align: center;
+  font-size: 38px;
+  background-color: #FFC20E;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pro {
+
+  text-decoration: underline;
+  color: red;
+}
+
+
+/* media query for mobile *//* media query for mobile *//* media query for mobile *//* media query for tablet */
+
+@media screen and (min-width:180px) and (max-width: 768px) {
+
+  .pro {
+
+    text-decoration: underline;
+    color: red;
+  }
+
+
+
+
+  .player-image{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height:100%;
+    width:100%;
+    float: left;
+    border: 6px solid white;
+    background-color: white;
+
+  
+
+  }
+
+
+
+        /*MOBILE view below for player-face */
+
+
+  .player-face{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    height:100%;
+    width:100%;
+  
+
+  }
+
+  .player-text {
+
+    font-family:Arial, Helvetica, sans-serif;
+    color: #FFB612;
+    font-size: 65px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 70px;
+
+    padding-bottom: 90px;
+  }
+
+  .player-textBlock {
+
+    padding-top: 210px;
+  }
+
+  .player-textMF {
+
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 65px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 70px;
+
+    padding-bottom: 90px;
+  }
+
+  #testimonials {
+
+    font-size: 52px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+
+
+  }
+
+  #testimonialsMF {
+
+    font-size: 52px;
+    width: 100%;
+    text-align: center;
+    background-color: #FFC20E;
+
+
+  }
+
+  .desktopstadium{
+
+    height: 70%;
+    width: 70%;
+    position: relative;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: none;
+  }
+
+  .stadium {
+
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .meetplayers{
+
+    padding-top: 25px;
+    padding-bottom: 35px;
+
+    font-size: 80px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.meetplayersdesk{
+
+  padding-top: 155px;
+  padding-bottom: 155px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 90px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: none;
+
+  padding-left: 20px;
+  padding-right: 20px;
+
+
+}
+
+
+.welcome{
+
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 55px;
+  background-color: black;
+  color: white;
+  padding-top: 45px;
+  padding-bottom: 55px;
+
+
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 50px;
+  
+  }
+
+  .player-text {
+
+    font-family:Arial, Helvetica, sans-serif;
+    color: #FFB612;
+    font-size: 65px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    padding-top: 70px;
+
+
+    padding-bottom: 90px;
+  }
+
+  .player-textMF {
+
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 70px;
+    padding-bottom: 90px;
+  }
+
+      /*mobile version for picture and allforone steelers logo only */
+
+
+      .picture {
+
+        height: 100%;
+        width: 100%;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: 100%;
+      }
+    
+      .allforone {
+    
+        height: 70%;
+        width: 70%;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: 70%;
+        display: none;
+    
+    
+    
+      }
+
+      .player-textBlock {
+
+        padding-top: 510px;
+      }
+
+      hr { 
+
+        border: solid black 6px;
+        border-bottom: none;
+        width: 100%;
+        margin: 100px auto;
+    
+      }
+
+      #features{
+
+        padding:7% 15%;
+        background-color: black;
+        position: relative;
+      
+      }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
